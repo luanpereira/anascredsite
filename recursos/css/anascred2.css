@@ -1,0 +1,13 @@
+﻿*
+{
+	font-family: Tahoma, Verdana, Arial;
+}
+
+body {
+}
+
+/*** FORMULÁRIO ***/
+#login.lbl{
+	text-align:right;
+	width:120px;
+}

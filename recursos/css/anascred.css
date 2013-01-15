@@ -1,0 +1,844 @@
+﻿*
+{
+    font-family:"Trebuchet MS", Tahoma, Arial;
+}
+
+body{background: #F6FCFC url(../img/page-bg.png) repeat-x;}
+
+input, select, textarea {border: 1px solid silver; color:#363636;}
+input[type="radio"], input[type="checkbox"] {border: none;}
+
+input[type="radio"], input[type="checkbox"] {border: none;}
+input:focus, textarea:focus {
+	background: #ABC6DD;/* #D7EBF0;  /*background: #ffe; */
+	border: 2px solid; /*border: 2px solid #006699;*/
+	}
+	
+a{text-decoration: none; color: #000341;}
+a:link {text-decoration: none; color:#000341;}
+a:visited {text-decoration: none; color:#000341;}
+a:hover {text-decoration: none; 
+color: #000341;
+}
+a:active {text-decoration: none}
+
+.img_clinicas{
+	float:left;
+}
+.img_ceuma{
+    float:right;
+}
+.homepageimg 
+{
+	background:#000000 url('../img/homepageimgleft.png') no-repeat;
+}
+
+/*ITENS*/
+.txt {
+	border: 1px solid;
+	color: #0F202B;
+	padding: 2px 5px;
+    text-transform:uppercase;
+}
+
+/*CORPO*/
+#corpo
+{
+    margin: 0 auto;
+    background: url(../img/anascred2.png) no-repeat;
+    width:402px;
+    height:265px;
+}
+
+#div_cabecalho{
+	width: 100%;               
+    text-align: center;
+}
+
+#div_principal{
+	width: 100%;               
+    text-align: center;
+}
+
+#div_corpo_form{
+	width: 100%;               
+    text-align: left;
+}	
+
+#div_titulo_form
+{ 
+	text-align:left;
+	font: 20px Arial;
+	color: #43570F;	
+	height:25px;
+	border-bottom: 2px solid #000341;
+	padding: 20px 0 2px 3px;
+	margin-bottom: 20px;
+}
+
+.div_titulo_form
+{
+	text-align:left;
+	font: 20px Arial;
+	color: #97C620;	
+	height:25px;
+	border-bottom: 2px solid #000341;
+	padding-left:3px;
+}
+
+#div_form{ 
+    float:left;
+    text-align:left;
+    padding-top:25px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:10px;
+    height:100%;
+    /*background: url(../img/borda_esq_corpo.jpg) repeat-y left; LER COMENTÁRIO ABAIXO*/
+    /*background: url(../img/borda_dir.jpg) no-repeat right; LER COMENTÁRIO ABAIXO */
+}
+
+
+#div_form DIV{
+    text-align:left;
+    padding-bottom:7px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+#div_form hr
+{
+	border:3px;
+    color: #97C620;	
+}
+
+#div_form h2{              
+	text-align:left;
+	font: 16px Arial;
+	color: #97C620;	
+	border-bottom: 2px solid #000341;
+	padding-top:15px;
+	width:100%;
+}
+
+.div_form
+{
+	float:left;
+    text-align:left;
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom:10px;
+}
+
+.div_form div{
+    text-align:left;
+    padding-bottom:7px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.div_form h2{              
+	text-align:left;
+	font: 16px Arial;
+	color: #97C620;	
+	border-bottom: 2px solid #000341;
+	padding-top:15px;
+	width:100%;
+}
+
+/* CORPO FORMULÁRIO*/
+.Box{ padding: 0px 5px 5px 0px;}
+.Titulo{
+	width: 100%;
+	background-color:#F2F7F2;}
+.Titulo:before{
+	display: block;
+	line-height: 0;
+	background: url(../img/title_right.gif) top right no-repeat;
+	content: url(../img/title_left.gif) }
+	
+.Campo{
+	width: 100%;
+	border-top:#CCCCCC  dashed 1px;
+	background-color:#F7FAF7;
+	font-size: 0.9em;}		
+.Campo:after{
+	display: block;
+	line-height: 0;
+	background: url(../img/bottom_right.gif) bottom right no-repeat;
+	content: url(../img/bottom_left.gif) }
+	
+.Titulo .Espaco{padding:0px 0px 3px 5px;}
+.Campo  .Espaco{padding:5px 0px 0px 5px;}
+
+
+/* FORM LOGIN */
+
+#login
+{
+    margin: 0 auto;
+	width: 350px;
+	height:200px;
+	padding-top:250px;
+}
+
+/*#login .lbl {width: 190px; text-align:right;}*/
+
+#div_login div
+{
+	float:left;
+}
+
+#div_login .txt
+{
+	background: white;
+	border-bottom-color: #999;
+	border: 1px solid;
+	border-right-color: #999;
+	color: black;
+	font: normal normal normal 18px/normal arial, 'sans-serif bold';
+	height: 25px;
+}
+
+h1
+{
+	font-size: 1.2em;
+	color: #97C620;	
+    background: url(../img/user_48.png) no-repeat left;
+	/*margin:15px 0px 10px;*/
+	padding:20px 0 7px 45px;
+}
+
+#div_login_titulo
+{
+	text-align:center;
+	font: 16px Arial;
+	color: #97C620;	
+	width:100%;
+	border: 1px solid #000341;
+	margin:15px 0px 10px;
+}
+
+.divLoginCampo{
+	width:100%;
+	text-align:left;
+	margin-top:7px;
+	margin-right:35px;
+	margin-left:35px;
+	display:table;
+}
+
+.divLoginNomeCampo{	
+	margin-top:3px;
+	margin-right:2px;
+	width:90px;
+	float:left;
+	text-align:right;
+}
+
+ul.divLoginNomeCampo{
+	width:200px;
+	text-align:left;
+	margin-top:30px;
+}
+
+.tituloCampoForm
+{
+	font-size: 12px;
+	color: #43570F;	
+}
+
+.lblObrigatorio{ color:#C00000;}
+
+.foco
+{
+	background: #ffe; /* Fundo amarelo palha */
+	border: 2px solid #000341; /* Borda verde de 2px */
+}
+
+.obrigatorio
+{
+	background-color:#FFCCCC;
+	border:2px dashed #FF3333;
+}
+
+.lblObrigatorio{ color:#C00000;}
+
+.divComTopo
+{
+	border-top: 2px solid #000341;
+	margin-top:5px;
+	/*padding-top:5px;*/
+	width: 100%;
+}
+
+.divComBase
+{
+	border-bottom: 2px solid #000341;
+	margin-bottom:5px;
+	/*padding-top:5px;*/
+}
+
+#div_botao
+{
+	border-top: 2px solid #000341;
+	padding-top:5px;
+	float:right;
+	width: 100%;
+	margin-top:20px;
+}
+
+.botaoForm {
+	background: #f8f8ff url(../img/botao_padrao.png) repeat-x;
+	border: 1px solid #DCDFE4;
+	cursor: pointer;
+	overflow: visible;
+}
+
+.botaoForm.salvar {
+	background-image: url(../img/salvar.png);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+.botaoForm.pesquisar {
+	background-image: url(../img/pesquisar.png);
+	background-repeat: no-repeat;
+	padding-left:20px;
+}
+
+.botaoForm.imprimir {
+	background-image: url(../img/imprimir.png);
+	background-repeat: no-repeat;
+	padding-left:23px;
+}
+
+.botaoFormExtravagante
+{
+	border-right: red 2px solid; 
+	border-top: red 2px solid; 
+	border-left: red 2px solid; 
+	border-bottom: red 2px solid; 
+	background-color: #f8f8ff;	
+}
+
+
+/*ADMINISTRAÇÃO*/
+
+.admMenu
+{
+	float:left;
+	font: 18px Arial;
+	/*font-weight:bold;*/
+	color: #97C620;
+	width:100%;	
+}
+
+
+.admMenuDesc
+{
+	font: 12px Arial;
+	color: #97C620;
+	width:100%;	
+}
+
+.admMenuIcone
+{
+	border-color: #97C620;
+	width:32px;
+	height:32px;
+}
+
+/*MENSAGENS*/
+.msgOK
+{
+	border: 2px solid;
+	border-color: #97C620;
+	background:#CCFFCC;
+	background-position:top left;
+	padding-left: 20px;
+	width:100%;
+	font: 12px Arial;			    
+    color: #97C620;
+    margin-bottom:10px;   
+}
+
+.msgErro
+{
+	border: 2px solid;
+	border-color: #FF3333;
+	background:#FFCCCC;
+	background-position:top left;
+	padding-left: 20px;
+	width:100%;
+	font: 12px Arial;		    
+    color: #CC0033;
+    margin-bottom:10px; 
+}
+
+.painelHistorico
+{
+	/*PAINEL VERDE*/
+	border: 2px solid;
+	border-color: #97C620;
+	background:#F4FFF4;
+	background-position:top left;
+	padding-left: 20px;
+	width:100%;
+	font: 12px Arial;			    
+    color: #97C620;
+    margin-bottom:10px;   
+    display:table;
+}
+
+.textoMsg
+{
+	padding-left:12px;
+}
+
+.textoMsgErro
+{
+	font: 12px Arial;
+	color: #CC0033;
+}
+
+.painelPadrao
+{
+	border: 2px solid;
+	border-color: #97C620;
+	background-color:#CCFFCC;
+	font: 12px Arial;			    
+    color: #97C620;
+}
+
+.painelPadraoCinza
+{
+	border: 2px solid;
+	border-color: #999999;
+	background-color:#EFEFEF;
+	font: 12px Arial;			    
+    color: #97C620;
+}
+
+.painelPadraoAmarelo
+{
+	border: 2px solid;
+	border-color: #990000;
+	background-color:#FFFFCC;
+	font: 12px Arial;			    
+    color: #97C620;
+}
+
+.msgExamePaciente
+{
+	position:absolute;
+	left:697px; 
+	width:150px;
+	height:75px;
+	border: 2px solid;
+	border-color: #97C620;
+	background-color:#CCFFCC;
+	font: 12px Arial;			    
+    color: #97C620;
+    margin-top:-15px;
+    margin-bottom:10px; 
+}
+
+.msgAntecedentes
+{
+	position:absolute;
+	left:345px; 
+	width:550px;
+	border: 2px solid;
+	border-color: #97C620;
+	background-color:#CCFFCC;
+	font: 12px Arial;			    
+    color: #97C620;
+    padding-top:8px;
+    margin-top:37px;
+    margin-bottom:10px; 
+}
+.msgPainelControleConsulta
+{
+	position:absolute;
+	left:345px; 
+	width:550px;
+	border: 2px solid;
+	border-color: #97C620;
+	background-color:#CCFFCC;
+	font: 12px Arial;			    
+    color: #97C620;
+    padding-top:8px;
+    margin-bottom:10px;
+}
+		
+/*MENU*/
+#div_menu
+{
+    height:28px;
+}
+
+#menu{
+	width:100%;
+	height:28px;
+	background-color:#000341;
+	padding:2;
+	text-align:left;
+}
+#div_logo{
+	width:100%;
+	height:120px;
+	background: url('../img/anascredMini.png') no-repeat left;
+	padding-top:10px;
+}				
+.logo_titulo
+{
+    margin-left:250px;
+	font-size: 2.0em;
+	text-align:left;
+	width:100%;
+	height:100%;
+	top:200px;
+}
+
+#menu_superior{
+	height:18px;
+	color:#000341;
+	/*background-color: #CBD5BA;
+	border-bottom:1px solid #000341;*/					
+}			
+#menu_superior_esquerda{
+	float:left;
+	padding-left:3px;
+}
+#menu_superior_direita{
+    float:right;
+    padding-right:3px;
+}
+						
+/*LINKS MENU SUPERIOR*/			
+.link_superior{
+    font: 12px Arial;			    
+    color: #97C620;
+    margin-top:-10px;
+    border-right: 1px solid white;
+    padding-right:5px;		    
+}
+.link_superior:hover{color:#97C620;}
+
+/*ITENS MENU INFERIOR*/
+#jsddm{	
+	/*margin-top: 10px;*/
+	padding: 0;
+}
+#jsddm li{
+	float: left;
+	list-style: none;
+	font: 12px Tahoma, Arial
+}
+#jsddm li a{	
+	display: block;
+	background: #000341;
+	padding: 5px 12px;
+	/*padding: 5px;*/
+	text-decoration: none;
+	border-right: 1px solid white;
+	color: #EAFFED;
+	white-space: nowrap;
+}
+#jsddm li a:hover{
+	background: #97C620;
+}			
+#jsddm li ul{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	visibility: hidden;
+	border-top: 1px solid white
+}			
+#jsddm li ul li{
+	float: none;
+	display: inline
+}			
+#jsddm li ul li a{
+	/*width: auto;*/
+	background: #97C620;
+	border-bottom:1px solid white;
+	text-align:left;
+}			
+#jsddm li ul li a:hover{
+	background: #F6FCFC;
+	color:#97C620;
+}
+
+/*TABELAS*/
+.tabelaResultado
+{
+	padding-bottom:20px;
+	float:left;
+}
+
+/*CALENDADIO*/
+#calendarDiv {
+	display: block;
+	position: relative;
+	border: 1px solid #777;
+	background-color:green;
+}
+#calendarDiv a {
+	cursor: pointer;
+}
+#calendar {
+	background: #ddd;
+	clear: both;
+	text-align: center;
+	font-size: 105%;
+}
+#calendar, #linksTable {
+	width: 180px;
+}
+#calendar .calendarHeader {
+	background: #333;
+	border-bottom: 1px solid #444;
+	color: #fff;
+}
+#calendar .weekDaysTitleRow {
+	background: #777;
+	color: #fff;
+}
+#calendar .weekDaysRow {
+	background: #eee;
+	color: #666;
+}
+#calendar .weekDaysCell {
+	color: #000;
+	border: 1px solid #ddd;
+}
+#calendar .weekDaysCellOver {
+	background: #fff;
+	border: 1px solid #777;
+}
+#closeCalender {
+	position: absolute;
+	right: 0;
+	bottom: 100%;
+	margin-bottom: 1px;
+	display: block;
+	padding: 2px;
+	cursor: pointer;
+	font-size: 60%;
+}
+#closeCalender:hover {
+	background: #000;
+	color: #fff;
+}
+#linksTable {
+	background: #000;
+}
+#linksTable a {
+	display: block;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 80%;
+	padding: 2px 5px;
+}
+#linksTable a:hover {
+	background: #ddd;
+	color: #333;
+}
+#prevMonth {
+	float: left;
+}
+#nextMonth {
+	float: right;
+}
+#today {
+	background: #999;
+}
+
+/* JANELA MODAL */
+.Modal
+{
+	/*background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+	border: 2px solid; */
+}
+
+.pnlModal
+{
+	/*background:url('../img/notice.png') no-repeat 0 0 transparent; */
+	width:340px; 
+	height:125px;
+	background-color:#ffffff; 
+	padding:20px 20px 20px 20px;
+	font: 12px Arial;
+	color: #97C620;
+	border: solid 2px;
+}
+
+.flyOutDiv
+{
+     display: none;
+     position: absolute;
+     width: 400px;
+     z-index: 3;
+     /*opacity: 0;
+     filter:(progid:DXImageTransform.Microsoft.Alpha(opacity=0));*/
+     font-size: 14px;
+     border: solid 5px lightGrey;
+     background-color: #F0FFF0;
+     padding: 5px;   
+}
+
+.imgModalQuest
+{
+	background:url('../img/questionmark_48.png') no-repeat;
+	width:40px;
+	height:48px;
+}
+
+.imgModalOK
+{
+	background:url('../img/confirma.png') no-repeat;
+	width:40px;
+	height:48px;
+}
+
+.imgModalErro
+{
+	background:url('../img/warning.png') no-repeat;
+	width:40px;
+	height:48px;
+}
+
+.botaoModal
+{
+	float:right ;
+}
+
+/*GERAL*/
+.UpperCase
+{
+	text-transform:uppercase;
+}
+.LowerCase
+{
+	text-transform:lowercase;
+}
+.optIndex{
+	font-weight:bold;
+	margin-bottom: 4px;
+	border-bottom: green 2px solid;
+}
+
+/*CALENDÁRIO*/
+.calendario .ajax__calendar_body
+{
+	width: 196px;
+	background-color: #ccffcc;
+	border: solid 1px #cccccc;
+} 
+.calendario .ajax__calendar_container
+{
+	border:solid 1px #cccccc;
+	background-color:White;
+	width: 200px;
+	z-index:1000;
+}
+.calendario .ajax__calendar_header
+{
+	background-color: #ffffff;     
+	white-space:nowrap;
+	height:15px;
+	margin-bottom:4px;
+}
+
+.calendario .ajax__calendar_days table tr td
+{
+	padding-right: 0px;
+} 
+
+.calendario .ajax__calendar_title    
+{
+	color: #004099;     
+}
+
+.calendario .ajax__calendar_dayname 
+{
+	text-align:center;     
+	font-weight:bold;     
+	margin-bottom: 4px;     
+	margin-top: 2px;
+}
+.calendario .ajax__calendar_day 
+{
+	text-align:center;
+}
+.calendario .ajax__calendar_hover .ajax__calendar_day,.calendario .ajax__calendar_hover .ajax__calendar_month,.calendario .ajax__calendar_hover .ajax__calendar_year,.calendario .ajax__calendar_active  
+{
+	color: #004080;     
+	font-weight: bold;     
+	background-color: #ffffff;
+}
+.calendario .ajax__calendar_today   
+{
+	font-weight:bold;
+}
+.calendario .ajax__calendar_other,.calendario .ajax__calendar_hover .ajax__calendar_today,.calendario .ajax__calendar_hover .ajax__calendar_title 
+{
+	color: #bbbbbb;
+}
+
+.consultaCampoDadosPaciente
+{
+	width:90px;
+	TEXT-ALIGN: right;
+	float:left;
+}
+.consultaDadosPaciente
+{
+	width:720px;
+	text-align:left;
+	float:left;
+}
+
+.cssTeste
+{
+	FLOAT: left; WIDTH: 110px; HEIGHT: 6px; TEXT-ALIGN: right;
+}
+
+.tabContainer
+{
+	float:left;
+	vertical-align:text-top;
+	padding-left:10px;	
+	padding-top:10px;
+	padding-right:10px;
+	margin-left:8px;
+	margin-right:8px;
+	/*padding-top:2px;*/
+	/*background-color:Red;*/
+	/*width:200px;
+	height:400px;*/
+}
+
+.msgTituloPaginaErro
+{
+	font-size: 26px; 
+	text-decoration: underline;
+	color:#97C620;
+	font-family: Arial; 
+	text-decoration: none;
+}
+
+.msgPaginaErro
+{
+	font-size: 20px; 
+	color:#97C620;
+	font-family: Arial; 
+	text-decoration: none;
+}
+
+/* RODAPÉ */
